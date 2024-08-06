@@ -34,7 +34,7 @@ def show_images(images, labels, num=10):
         plt.axis('off')
     plt.show()
 
-# show_images(labels['id'].values, labels['label'].values)
+show_images(labels['id'].values, labels['label'].values)
 print('show images')
 
 #Preprocess the data, data augmentation and normalization
