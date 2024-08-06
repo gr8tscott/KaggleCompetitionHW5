@@ -143,4 +143,4 @@ sample_submission = pd.read_csv(sample_submission_path)
 sample_submission['label'] = predictions_binary
 sample_submission.to_csv('submission.csv', index=False)
 
-print("Done! Submission file created: 'submission.csv'")
+print("Submission file created: 'submission.csv'")
